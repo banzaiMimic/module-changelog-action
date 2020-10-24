@@ -5,6 +5,9 @@
   "repository": "git@github.com:drMimic/module-changelog-action.git",
   "author": "drMimic",
   "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"
